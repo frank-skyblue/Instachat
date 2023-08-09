@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  frontend:
+    image: ghcr.io/utscc09/frontend-wonderge
+    container_name: frontend
+    restart: always
+    ports: 
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./ssl:/usr/share/nginx/ssl
+  backend:
+    image: ghcr.io/utscc09/backend-wonderge
+    container_name: backend
+    restart: always
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    volumes:
+      - ./ssl:/usr/src/app/ssl

@@ -1,0 +1,23 @@
+{
+  "name": "project-sans-serif",
+  "version": "1.0.0",
+  "description": "InstaChat",
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend run dev\" \"npm --prefix client start\"",
+    "postinstall": "(cd backend && npm install) && (cd ../client && npm install)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTSCC09/project-sans-serif.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UTSCC09/project-sans-serif/issues"
+  },
+  "homepage": "https://github.com/UTSCC09/project-sans-serif#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
