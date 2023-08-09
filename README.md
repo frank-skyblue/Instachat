@@ -1,11 +1,26 @@
 # CSCC09 Project Deliverable
+
+## My contributions
 This is a project for my web programming course where I collaborated with 2 other individuals. 
 
-To test this application, please run the `docker-compose.yml` file in the root directory.
+Here is a list of my contributions
+* Designing the UI for the [signin/signout page](client/src/pages/Signin.tsx) and [navigation bar](client/src/pages/components/Nav.tsx) using **Typescript & React**
+* Designed the UI for the [homepage](client/src/pages/HomePage.tsx) using **Typescript & React**
+  * Whiteboard
+  * Video Chat feed
+* Improved the UI for the [connect page](client/src/pages/Connect/Connect.tsx) using **Typescript & React**
+* Implemented key features of the [whiteboard](client/src/pages/Whiteboard) using **Typescript, React, and Socket.io**
+  * Scaling to the browser window size on load
+  * Ability to add shapes to the whiteboard
+  * Size/Color selection for pen, eraser, and shapes
+  * Multi-user support for pen, eraser, and shapes using socket.io
+* Improved the [video/voice chat](client/src/pages/components/VideoBox.tsx) functionality using **Typescript, React, and Socket.io**
+  * Ability to mute/turn off cam and unmute/turn on cam
 
 ## Project URL
 
 https://instachatapp.me or https://www.instachatapp.me
+> Domain has expired
 
 ## Project Video URL 
 
