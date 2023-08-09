@@ -101,7 +101,7 @@ If all of these went smoothly then we would be fairly confident that the applica
   * Initial set up, managing calls, private signalling server
 * Set up frontend routing
 
-**Su Tong Kong**
+**Su Tong (Frank) Kong**
 * Designed the UI for the signin/signout page and navigation bar
 * Designed the UI for the homepage (at /whiteboard)
   * Whiteboard
