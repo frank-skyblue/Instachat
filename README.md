@@ -1,4 +1,7 @@
 # CSCC09 Project Deliverable
+This is a project for my web programming course where I collaborated with 2 other individuals. 
+
+To test this application, please run the `docker-compose.yml` file in the root directory.
 
 ## Project URL
 
